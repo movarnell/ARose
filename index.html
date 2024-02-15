@@ -10,30 +10,42 @@
 </head>
 
 <body>
+<!-- This is a div element with a class of "nav-cust" containing a heading -->
 <div class="nav-cust"><h1 class="text-center">Navbar</h1></div>
-    <!-- NAV no container around -->
 
-    <div class="container-fluid">
-        <div class="row row-cols-3">
-            <div class="col-lg-2 col-md-3 col-sm-12 border border-3 size"></div>
-            <div class="col-lg-8 col-md-7 col-sm-12 border border-3 size"></div>
-            <div class="col-lg-2 col-md-2 col-sm-12 border border-3 size"></div>
-        </div>
-        <div class="row row-cols-3">
-            <div class="col-lg-2 col-md-3 col-sm-12 border border-3 size">
-                
-            </div>
-            <div class="col-lg-8 col-md-7 col-sm-12 border border-3 size">
-                <div class="row justify-content-evenly">
-                    <div class="col-4 border border-3 size">1</div>
-                    <div class="col-3 border border-3 size">2</div>
-                    <div class="col-4 border border-3 size">3</div>
-                </div>
-                <div class="row"><h1>See Second Inner Row</h1></div>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-12 border border-3 size"></div>
-        </div>
+<!-- This is a container that holds all the rows and columns -->
+<div class="container-fluid">
+
+    <!-- This is the first row with three columns -->
+    <div class="row row-cols-3">
+        <!-- This is the first column of the first row -->
+        <div class="col-lg-2 col-md-3 col-sm-12 border border-3 size"></div>
+        <!-- This is the second column of the first row -->
+        <div class="col-lg-8 col-md-7 col-sm-12 border border-3 size"></div>
+        <!-- This is the third column of the first row -->
+        <div class="col-lg-2 col-md-2 col-sm-12 border border-3 size"></div>
     </div>
+
+    <!-- This is the second row with three columns -->
+    <div class="row row-cols-3">
+        <!-- This is the first column of the second row -->
+        <div class="col-lg-2 col-md-3 col-sm-12 border border-3 size"></div>
+        <!-- This is the second column of the second row -->
+        <div class="col-lg-8 col-md-7 col-sm-12 border border-3 size">
+            <!-- This is a nested row inside the second column of the second row -->
+            <div class="row justify-content-evenly">
+                <!-- These are the three columns of the nested row -->
+                <div class="col-4 border border-3 size">1</div>
+                <div class="col-3 border border-3 size">2</div>
+                <div class="col-4 border border-3 size">3</div>
+            </div>
+            <!-- This is another nested row inside the second column of the second row -->
+            <div class="row"><h1>See Second Inner Row</h1></div>
+        </div>
+        <!-- This is the third column of the second row -->
+        <div class="col-lg-2 col-md-2 col-sm-12 border border-3 size"></div>
+    </div>
+</div>
 
 
 
